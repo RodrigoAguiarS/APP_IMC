@@ -14,8 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/imc"
+        android:gravity="center"
         android:textSize="48sp"
-        android:textColor="@color/azul"
+        android:textColor="#05AFF2"
         />
     <EditText
         android:id="@+id/edtPeso"
@@ -39,9 +40,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="46dp"
-        android:backgroundTint="@color/amarelo1"
+        android:backgroundTint="@color/amarelo"
         android:padding="16dp"
         android:text="@string/calcular"
         android:textSize="16sp"
-        android:textColor="@color/azul"/>
+        android:textStyle="bold"
+        android:textColor="#05AFF2"/>
 </LinearLayout>
